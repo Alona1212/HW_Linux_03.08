@@ -1,0 +1,13 @@
+   0 ghgh
+   1 clear
+   2 mkdir -p /home/user/start
+   3 touch /start/1.txt
+   4 touch /home/user/start/1.txt
+   5 echo "Start" > 1.txt
+   6 date >> /home/user/start/1.txt
+   7 mkdir -p /opt/task
+   8 cp /home/user/start/1.txt /opt/task/start.txt
+   9 ls
+  10 ls > /opt/task/start.txt
+  11 history
+  12 history >history_03.08.2023.txt
